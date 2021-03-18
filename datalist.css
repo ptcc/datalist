@@ -1,0 +1,25 @@
+.datalist-dropdown {
+	max-height: 300px;
+	position: absolute;
+	overflow: auto;
+	z-index: 999;
+	padding: 0;
+	background-color: #fff;
+	border: 1px solid #33bbff;
+	display: none;
+}
+.datalist-dropdown.visible {
+	display: block;
+}
+.datalist-dropdown div {
+	padding: 0px 0px 0px 10px;
+	cursor: default;
+}
+.datalist-dropdown div.sel {
+	background-color: #33bbff;
+	color: #fff;
+}
+/* hide datalist for browsers that don't support it */
+datalist {
+	display: none;
+}
